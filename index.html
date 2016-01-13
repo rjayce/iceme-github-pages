@@ -1,14 +1,19 @@
 <!DOCTYPE html>
+
 <html>
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>IceMe - Test Github</title>
+    <title>IceMe - Dégustez une glace</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -19,17 +24,118 @@
   </head>
   
   <body>
-    <div class="container">
+
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">IceMe</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dégustez une glace maintenant</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suivez-nous <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    <div id="wrapper">
+      
+      <h1>DEGSUTEZ UNE GLACE</h1>
+      <h2>MAINTENANT, TOUT DE SUITE</h2>
+      <button type="button" class="btn btn-primary">Commander</button>
+
+    </div>
+
+    <div class="spacer"></div>
+      
+    <div class="container text-center">
       <div class="row">
-        <div class="col-md-4">
-          <h1>hello world</h1>
+
+        <div class="col-sm-6 col-md-3 feature">
+          <img src="images/icon_57707/icon_57707.png" width="48">
+          <p>
+            Choisissez jusque trois parfums
+            parmi notre catalogue de <strong>1,000</strong> glaces maison.
+          </p>
+        </div>
+
+        <div class="col-sm-6 col-md-3 feature">
+          <img src="images/icon_29388/icon_29388.png" width="48">
+          <p>
+            L'application vous <strong>géolocalise</strong> automatiquement et vous
+            indique le temps d'attente estimé.
+          </p>
+        </div>
+
+        <div class="col-sm-6 col-md-3 feature">
+          <img src="images/icon_24755/icon_24755.png" width="48">
+          <p>
+            Un de nos supers livreurs fonce pour vous apporter votre glace,
+            qui sera <strong>préparée juste à temps</strong>.
+          </p>
+        </div>
+
+        <div class="col-sm-6 col-md-3 feature">          
+          <img src="images/icon_17805/icon_17805.png" width="48">
+          <p>
+            Pas de monnaie ? Pas un problème, le paiement est <strong>automatiquement</strong>
+            débité sur votre carte bancaire.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-xs-6 col-md-3">
+          <ul class="list-inline social">
+            <li><a href="https://facebook.com/iceme"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/iceme"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://instagram.com/iceme"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://youtube.com/iceme"><i class="fa fa-youtube"></i></a>
+          </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-9">
+          <p>
+            IceMe est une compagnie fictive créée dans le cadre de <a href="http://cetetejecode.fr">cetetjeceode</a>
+          </p>
+          </div>
+
         </div>
       </div>
     </div>
 
-
-    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+       <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ 
   </body>
+
 </html>
